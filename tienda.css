@@ -1,0 +1,415 @@
+*{   
+ box-sizing: border-box;
+ padding: 0; 
+ margin: 0;
+}     
+
+.contenedor__header-Categories{
+  background:  rgba(248, 186, 222, 0.8) ;
+  opacity: 0.8;
+  width: 100%; 
+  padding: 10px;
+}
+
+.Conteiner-Nav{
+  justify-content: center;
+  align-items: center;
+  display: flex; 
+  margin-left: 10px;
+}
+
+ul{   
+ list-style: none; 
+ justify-content: center;
+ align-items: center;
+ display: flex;
+}
+
+.Logo-tienda{
+  border-radius: 50%;
+  width: 80px; 
+  border: 4px solid silver;
+
+}
+
+li{ 
+ padding: 40px;
+}
+
+a{
+ text-decoration: none; 
+ color: darkviolet;
+}  
+
+/*Finalizacion del contenedor del header*/
+
+/*Comienzo de el contenedor de los Productos*/
+.Contenedor__Productos-all-Colores{
+  background:  rgba(248, 186, 222, 0.8) ;
+  border-radius: 10px;
+  padding-top: 30px; 
+  margin-top: 30px;
+  padding: 20px;
+}
+
+.Contenedor__Productos-all-Colores h1{    
+  justify-content: center; 
+  align-items: center;
+  color: darkviolet; 
+  text-align: center; 
+  font-family: cursive; 
+  font-style: italic;
+  font-size: 38px;
+}
+
+.contenedor__List-Producto-all{   
+  justify-content: center; 
+  align-items: center;
+  display: flex;
+}
+
+.Nav-1{ 
+  justify-content: center;
+  align-items: center;
+ display: block;
+}
+
+.Nav-2{ 
+  justify-content: center;
+  align-items: center;
+ display: block;
+}
+
+.Nav-3{ 
+  justify-content: center;
+  align-items: center;
+ display: block;
+}
+
+.Nav-4{ 
+  justify-content: center;
+  align-items: center;
+ display: block;
+}
+
+.List__Product{  
+  border: 4px solid silver;
+  background: fuchsia;
+  border-radius: 10px;
+  margin: 10px;
+}
+
+.List__Product img{
+  width: 324px; 
+  height: 324px;
+}
+
+.List__Product h1{
+  font-size: 26px;   
+  color: rgb(114, 8, 114);  
+  text-align: center;
+  margin: 4px;
+}
+
+.List__Product p{
+  font-size: 22px; 
+  color: rgb(114, 8, 114);
+  text-align: center;
+  margin: 8px;
+}
+
+.List__Product button{
+  font-size: 12px;
+  color: darkviolet;   
+  width: 322px;
+}
+
+/*Finaliza contenedor de los productos Colores */
+
+/*Comienza Nuestros Productos Clasicos*/  
+
+.Container__Product__all-Clasicos{
+  background:  rgba(248, 186, 222, 0.8) ;
+  border-radius: 10px;
+  padding-top: 30px; 
+  margin-top: 30px;
+  padding: 20px;
+}
+
+.Container__Product__all-Clasicos h1{
+  justify-content: center; 
+  align-items: center;
+  color: darkviolet; 
+  text-align: center; 
+  font-family: cursive; 
+  font-style: italic;
+  font-size: 38px;  
+}
+
+.container__List__Productos-Clasicos{
+  justify-content: center; 
+  align-items: center;
+  display: flex;
+}
+
+.Nav__List__product-clssic-1{
+  justify-content: center;
+  align-items: center;
+ display: block;
+}
+
+.Nav__List__product-clssic-2{
+  justify-content: center;
+  align-items: center;
+ display: block;
+}
+
+.List__Products-Clasicos{
+  border: 4px solid silver;
+  background: fuchsia;
+  border-radius: 10px;
+  margin: 10px;
+}
+
+.List__Products-Clasicos img{
+  width: 324px; 
+  height: 324px;
+}
+
+.List__Products-Clasicos h1{
+  font-size: 14px;   
+  color: rgb(114, 8, 114);  
+  text-align: center;
+  margin: 4px;
+}
+
+.List__Products-Clasicos p{
+  font-size: 22px; 
+  color: rgb(114, 8, 114);
+  text-align: center;
+  margin: 8px;
+}
+
+.List__Products-Clasicos button{
+  font-size: 12px;
+  color: darkviolet;   
+  width: 322px;
+}
+
+/*Finaliza nuestros Productos Clasicos*/
+
+/* Comienza Productos En forma de Corazon*/
+.Container__All-Products-Hearts{
+  background:  rgba(248, 186, 222, 0.8) ;
+  border-radius: 10px;
+  padding-top: 30px; 
+  margin-top: 30px;
+  padding: 20px;
+}
+
+.Container__All-Products-Hearts h1{
+  justify-content: center; 
+  align-items: center;
+  color: darkviolet; 
+  text-align: center; 
+  font-family: cursive; 
+  font-style: italic;
+  font-size: 38px;  
+}
+
+.Container__List__Products-heart{
+  justify-content: center; 
+  align-items: center;
+  display: flex;
+}
+
+.Nav__List__Products-forma-Corazon-1{
+  justify-content: center;
+  align-items: center;
+ display: block;
+}
+
+.Nav__List__Products-forma-Corazon-2{
+  justify-content: center;
+  align-items: center;
+ display: block;
+}
+
+.List__Products-in-form-Heart{
+  border: 4px solid silver;
+  background: fuchsia;
+  border-radius: 10px;
+  margin: 10px;
+}
+
+.List__Products-in-form-Heart img{
+  width: 324px; 
+  height: 324px;
+}
+
+.List__Products-in-form-Heart h1{
+  font-size: 12px;   
+  color: rgb(114, 8, 114);  
+  text-align: center;
+  margin: 4px;
+}
+
+.List__Products-in-form-Heart p{
+  font-size: 22px; 
+  color: rgb(114, 8, 114);
+  text-align: center;
+  margin: 8px;
+}
+
+.List__Products-in-form-Heart button{
+  font-size: 12px;
+  color: darkviolet;   
+  width: 322px;
+}
+
+/*Finaliza Productos en Forma de Corazon*/
+
+/*Comienza Productos en forma Rectangulares*/
+.Container__All__Products-Rectangulares{
+  background:  rgba(248, 186, 222, 0.8) ;
+  border-radius: 10px;
+  padding-top: 30px; 
+  margin-top: 30px;
+  padding: 20px;
+}
+
+.Container__All__Products-Rectangulares h1{
+  justify-content: center; 
+  align-items: center;
+  color: darkviolet; 
+  text-align: center; 
+  font-family: cursive; 
+  font-style: italic;
+  font-size: 38px;  
+}
+
+.Container__List__Products-Rectangular{
+  justify-content: center; 
+  align-items: center;
+  display: flex;
+}
+
+.Nav__List__Products-Rectangular-1{
+  justify-content: center;
+  align-items: center;
+ display: block;
+}
+
+.Nav__List__Products-Rectangular-2{
+  justify-content: center;
+  align-items: center;
+ display: block;
+}
+
+.List__Products__In-form-Rectangular{
+  border: 4px solid silver;
+  background: fuchsia;
+  border-radius: 10px;
+  margin: 10px;
+}
+
+.List__Products__In-form-Rectangular img{
+  width: 324px; 
+  height: 324px;
+}
+
+.List__Products__In-form-Rectangular h1{
+  font-size: 12px;   
+  color: rgb(114, 8, 114);  
+  text-align: center;
+  margin: 4px;
+}
+
+.List__Products__In-form-Rectangular p{
+  font-size: 22px; 
+  color: rgb(114, 8, 114);
+  text-align: center;
+  margin: 8px;
+}
+
+.List__Products__In-form-Rectangular button{
+  font-size: 12px;
+  color: darkviolet;   
+  width: 322px;
+}
+
+
+/*Finaliza Productos en forma Rectangulares*/
+
+/*Comienza Productos supremos*/
+.Container__All__Products-Supremos{
+  background:  rgba(248, 186, 222, 0.8) ;
+  border-radius: 10px;
+  padding-top: 30px; 
+  margin-top: 30px;
+  padding: 20px;
+}  
+
+.Container__All__Products-Supremos h1{
+  justify-content: center; 
+  align-items: center;
+  color: darkviolet; 
+  text-align: center; 
+  font-family: cursive; 
+  font-style: italic;
+  font-size: 38px;  
+}
+
+.Container__List__Products-Supremos{
+  justify-content: center; 
+  align-items: center;
+  display: flex;
+}  
+
+.Nav__List__Products-Suprem-1{
+  justify-content: center;
+  align-items: center;
+ display: block;
+}
+
+.Nav__List__Products-Suprem-2{
+  justify-content: center;
+  align-items: center;
+ display: block;
+}
+
+.List__Products__in-form-supremos{
+  border: 4px solid silver;
+  background: fuchsia;
+  border-radius: 10px;
+  margin: 10px;
+}
+
+.List__Products__in-form-supremos img{
+  width: 324px; 
+  height: 324px;
+  align-items: center;
+  justify-content: center;
+}
+
+.List__Products__in-form-supremos h1{
+  font-size: 12px;   
+  color: rgb(114, 8, 114);  
+  text-align: center;
+  margin: 4px;
+}
+
+.List__Products__in-form-supremos p{
+  font-size: 22px; 
+  color: rgb(114, 8, 114);
+  text-align: center;
+  margin: 8px;
+}   
+
+.List__Products__in-form-supremos button{
+  font-size: 12px;
+  color: darkviolet;   
+  width: 322px;
+}
+
+/*Finaliza Productos supremos */

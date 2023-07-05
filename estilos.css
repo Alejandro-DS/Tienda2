@@ -1,0 +1,434 @@
+*{ 
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0; 
+}
+
+.contenedor-header{
+  background:  rgba(248, 186, 222, 0.8) ;
+  opacity: 0.8;
+  width: 100%; 
+}
+
+.nav-header{ 
+ justify-content: center;
+ align-items: center;
+ display: flex;
+}
+
+.nav-header ul{
+ justify-content: center;
+ align-items: center;
+ display: flex;
+}
+
+.Logo-header{
+  width: 80px; 
+  border: 4px solid white;      
+  border-radius: 50%;
+  margin: 10px;
+}
+
+ul{
+	list-style: none;
+}
+
+a,input{
+	padding: 10px;
+}
+
+a,i{
+	text-decoration: none;  
+	padding: 10px;
+	color: darkviolet; 
+	font-size: 18px;
+}
+
+h1{ 
+ padding: 10px;
+ color: darkviolet; 
+ font-size: 18px;
+}
+
+a:hover{  
+  box-shadow: 10px 10px 22px blue; 
+  transition: all 600ms ease;  
+  transform: translatey(-8%); 
+  border: 2px solid silver;
+  border-radius: 25px;
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+/*Finaliza mi header*/  
+
+/*Comienza mi Carrusel*/  
+
+/*Finaliza mi Carrusel*/
+
+/*Banner 1*/
+.Contenedor__Banner-1{
+  background: rgba(248, 186, 222, 0.8) ;
+  border-radius: 10px; 
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-top: 30px; 
+  display: flex; 
+  padding: 18px;       
+}
+
+.Contenedor__Banner-1 img{ 
+  justify-content: space-between;
+  border: 6px solid silver;
+  border-radius: 10px;
+}
+
+.container-info{ 
+  padding-left: 40px;
+  left: 40px;  
+} 
+
+.container-info h1{
+  font-family: 'Pacifico', cursive; 
+  font-size: 38px; 
+  font-style: italic;
+  margin: 40px; 
+  color: blueviolet;
+}
+
+.container-info h2{ 
+  font-family: 'Philosopher', sans-serif; 
+  font-style: italic; 
+  font-size: 34px;
+  margin: 40px; 
+  color: blueviolet;
+}
+
+.container-info p{ 
+  font-style: italic; 
+  font-size: 36px;
+  color: darkviolet;
+  margin: 40px;
+}
+
+/*banner 1*/
+
+/*banner 2 inicio*/
+
+.Contenedor__Banner-2{  
+  background: rgba(248, 186, 222, 0.8)  ;
+  justify-content: center; 
+  align-items: center;
+  border-radius: 10px; 
+  margin-top: 30px; 
+  display: flex; 
+  padding: 18px;
+}
+
+.Contenedor__Banner-2 img{
+  justify-content: space-between;
+  border: 6px solid silver;
+  border-radius: 10px;
+  width: 800px;
+  height: 800px;
+}
+
+.container-info-2{
+ padding-left: 40px; 
+ text-align: center;
+ right: 40px;
+}
+ 
+.container-info-2 h1{
+	font-family: 'Pacifico', cursive; 
+	font-size: 38px; 
+	font-style: italic;
+	margin: 40px; 
+	color: blueviolet;
+}
+  
+.container-info-2 h2{ 
+	font-family: 'Philosopher', sans-serif; 
+	font-style: italic; 
+	font-size: 34px;
+	margin: 40px; 
+	color: blueviolet;
+}
+  
+.container-info-2 p{ 
+	font-style: italic; 
+	font-size: 36px;
+	color: darkviolet;
+	margin: 40px;
+}   
+
+/*banner 2 final*/    
+
+/*banner 3 inicio */  
+
+.Contenedor__Banner-3{
+  background: rgba(248, 186, 222, 0.8)  ;
+  justify-content: center; 
+  align-items: center;
+  border-radius: 10px; 
+  margin-top: 30px; 
+  display: flex; 
+  padding: 18px;
+}    
+
+.Contenedor__Banner-3 img {
+  justify-content: space-between;
+  border: 6px solid silver;
+  border-radius: 10px;
+  width: 800px;
+  height: 800px;  
+}
+
+.container-info-3{
+  padding-left: 40px; 
+  text-align: center;
+  right: 40px;  
+}
+
+.container-info-3 h1{
+  font-family: 'Pacifico', cursive; 
+	font-size: 38px; 
+	font-style: italic;
+	margin: 40px; 
+	color: blueviolet;
+}
+
+.container-info-3 h2{
+  font-family: 'Philosopher', sans-serif; 
+	font-style: italic; 
+	font-size: 34px;
+	margin: 40px; 
+	color: blueviolet; 
+}   
+
+.container-info-3 p{
+  font-style: italic; 
+	font-size: 36px;
+	color: darkviolet;
+	margin: 40px;
+}
+
+/*banner 3 final */
+
+/**/ 
+
+.Contenedor__Banner-4{
+  background: rgba(248, 186, 222, 0.8)  ;
+  justify-content: center; 
+  align-items: center;
+  border-radius: 10px; 
+  margin-top: 30px; 
+  display: flex; 
+  padding: 18px;
+}  
+
+.Contenedor__Banner-4 img{
+  justify-content: space-between;
+  border: 6px solid silver;
+  border-radius: 10px;
+  width: 800px;
+  height: 800px;  
+}
+
+.container-info-4{
+  padding-left: 40px; 
+  text-align: center;
+  right: 40px;  
+}   
+
+.container-info-4 h1{
+  font-family: 'Pacifico', cursive; 
+	font-size: 38px; 
+	font-style: italic;
+	margin: 40px; 
+	color: blueviolet;
+}  
+
+.container-info-4 h2{
+  font-family: 'Philosopher', sans-serif; 
+	font-style: italic; 
+	font-size: 34px;
+	margin: 40px; 
+	color: blueviolet;  
+}  
+
+.container-info-4 p{
+  font-style: italic; 
+	font-size: 36px;
+	color: darkviolet;
+	margin: 40px;  
+}
+
+/**/
+
+/**/
+.Contenedor__Banner-5{
+  background: rgba(248, 186, 222, 0.8)  ;
+  justify-content: center; 
+  align-items: center;
+  border-radius: 10px; 
+  margin-top: 30px; 
+  display: flex; 
+  padding: 20px;
+}  
+
+.Contenedor__Banner-5 img{
+  justify-content: space-between;
+  border: 6px solid silver;
+  border-radius: 10px;
+  width: 800px;
+  height: 800px;  
+}
+
+.container-info-5{
+  padding-left: 40px; 
+  text-align: center;
+  right: 40px;  
+}    
+
+.container-info-5 h1{
+  font-family: 'Pacifico', cursive; 
+	font-size: 38px; 
+	font-style: italic;
+	margin: 40px; 
+	color: blueviolet;
+}
+
+.container-info-5 h2{
+  font-family: 'Philosopher', sans-serif; 
+	font-style: italic; 
+	font-size: 34px;
+	margin: 40px; 
+	color: blueviolet;   
+}  
+
+.container-info-5 p{
+  font-style: italic; 
+	font-size: 36px;
+	color: darkviolet;
+	margin: 40px;  
+}
+
+/**/
+
+/*Comienza nuestro Footer*/
+
+.Contenedor__Footer-All{
+  background: rgba(173, 172, 172, 0.8); 
+  margin-top: 20px;   
+  padding: 10px;   
+  height: 346px;
+}
+
+.Container__Footer-nav{
+ justify-content: center;
+ align-items: center;
+ display: flex;
+}
+
+.Container__Footer-nav img{     
+  border: 4px solid white; 
+  justify-content: center; 
+  align-items: center;
+  border-radius: 50%;
+  margin: 40px;  
+  width: 80px; 
+  top: 10px;
+}
+
+.Contenedor__footer-img{ 
+ justify-content: center; 
+ align-items: center;
+ justify-content: center; 
+ align-items: center;
+ display: block;
+ flex: 2;
+}
+
+.Contenedor__footer-img p{
+  font-size: 24px;
+  font-weight: 100;
+  color: darkviolet;
+  text-align: center;
+}
+
+.Redes__Sociales{
+  justify-content: center; 
+  align-items: center;
+  display: block;
+  margin: 20px;
+  flex-direction: column;
+  flex: 2;
+}   
+
+.Redes__Sociales h1{
+  justify-content: center; 
+  align-items: center;
+  display: block;
+  margin: 20px;
+}
+
+.All__List-desordenada-1{
+  justify-content: center; 
+ align-items: center;
+ display: block;
+ margin: 20px;
+}
+
+li{
+  padding: 8px;
+  display: block;
+}
+
+.All__List-desordenada-1 h1{
+  justify-content: center; 
+  align-items: center;
+  display: block;
+  margin: 20px;
+}
+
+li{
+  padding: 8px;
+  display: block;
+}
+
+.Footer-setion__Dawn{
+  background: black;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  width: 100%;
+  height: 100px;
+}
+
+.contenedor__footer-section-dawn-1 h1{
+  font-size: 14px;
+} 
+
+.contenedor__footer-section-dawn-2 h1{
+  font-size: 14px;
+}
+
+.contenedor__footer-section-dawn-3 h1{
+  font-size: 14px; 
+}
+
+.contenedor__footer-section-dawn-1 a{
+  font-size: 12px; 
+}
+
+.contenedor__footer-section-dawn-2 a{
+  font-size: 12px; 
+}    
+
+.contenedor__footer-section-dawn-3 a{
+  font-size: 12px; 
+}
+
+/*Termina nuestro Footer*/
